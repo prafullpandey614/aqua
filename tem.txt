@@ -1,0 +1,8 @@
+ hydrodata=HydroData(color="red",marker=0,size=30,pH=7.8,Ca=3,Mg=60,Na=2,
+    K=2.8,HCO3=73,CO3=20,Cl=3,SO4=48,TDS=233)
+    db.session.add(hydrodata)
+    db.session.commit()
+    hydrodata=HydroData(color="green",marker=0,size=20,pH=4.8,Ca=3,Mg=60,Na=2,
+    K=2.8,HCO3=73,CO3=0,Cl=53,SO4=48,TDS=233)
+    db.session.add(hydrodata)
+    db.session.commit()
